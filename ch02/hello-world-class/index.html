@@ -3,20 +3,15 @@
   <head>
     <script src="./js/react.js"></script>
     <script src="./js/react-dom.js"></script>
+    <script src="./js/script.js"></script>
   </head>
   <body>
     <div id="content"></div>
     <script type="text/javascript">
-      let h1 = React.createElement('h1', null, 'Hello world!')
       ReactDOM.render(
-        React.createElement('div', null, h1, h1),
+        React.createElement(HelloWorld, null),
         document.getElementById('content')
       )
-      // Usage without the h1 variable
-      // ReactDOM.render(
-      //   React.createElement('h1', null, 'Hello world!'),
-      //   document.getElementById('content')
-      // )
     </script>
   </body>
 </html>
