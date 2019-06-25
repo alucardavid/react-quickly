@@ -9,7 +9,22 @@
     <div id="content"></div>
     <script type="text/javascript">
       ReactDOM.render(
-        React.createElement(HelloWorld, null),
+        React.createElement(
+          'div',
+          null,
+          React.createElement(HelloWorld, {
+            id: 'ember',
+            frameworkName: 'Ember.js',
+            title: 'A framework for creating ambitious web applications.'}),
+          React.createElement(HelloWorld, {
+            id: 'backbone',
+            frameworkName: 'Backbone.js',
+            title: 'Backbone.js gives structure to web applications...'}),
+          React.createElement(HelloWorld, {
+            id: 'angular',
+            frameworkName: 'Angular.js',
+            title: 'Superheroic Javascript MVW Framework'})
+        ),
         document.getElementById('content')
       )
     </script>
