@@ -9,7 +9,8 @@
     "build-hello-js-world-jsx": "./node_modules/.bin/babel hello-js-world-jsx/jsx/script.jsx -o hello-js-world-jsx/js/script.js -w",
     "build-hello-world-jsx": "./node_modules/.bin/babel hello-world-jsx/jsx/script.jsx -o hello-world-jsx/js/script.js -w",
     "build-hello-world-class-jsx": "./node_modules/.bin/babel hello-world-class-jsx/jsx/script.jsx -o hello-world-class-jsx/js/script.js -w",
-    "build": "npm run build-method & npm run build-hello-js-world-jsx & npm run build-hello-world-jsx & npm run build-hello-world-class-jsx"
+    "build": "npm run build-method & npm run build-hello-js-world-jsx & npm run build-hello-world-jsx & npm run build-hello-world-class-jsx",
+    "build-clock": "./node_modules/.bin/babel ./ch04/clock/jsx -d ./ch04/clock/js -w"
   },
   "keywords": [
     "react.js"
