@@ -13,7 +13,6 @@
     "build-clock": "./node_modules/.bin/babel ./ch04/clock/jsx -d ./ch04/clock/js -w",
     "build-clock-analog-digital": "./node_modules/.bin/babel ./ch04/clock-analog-digital/jsx -d ./ch04/clock-analog-digital/js -w",
     "build-onclick": "./node_modules/.bin/babel ./ch06/onclick/jsx -d ./ch06/onclick/js -w"
-
   },
   "keywords": [
     "react.js"
@@ -21,7 +20,9 @@
   "author": "",
   "license": "ISC",
   "babel": {
-    "presets": ["react"]
+    "presets": [
+      "react"
+    ]
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
