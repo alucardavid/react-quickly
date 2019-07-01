@@ -6,13 +6,14 @@
   "scripts": {
     "build": "./node_modules/.bin/babel script.jsx -o script.js -w"
   },
-  "author": "Azat Mardan",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "babel": {
     "presets": ["react"]
   },
   "devDependencies": {
-    "babel-cli": "6.9.0",
-    "babel-preset-react": "6.5.0"
+    "babel-cli": "^6.9.0",
+    "babel-preset-react": "^6.5.0"
   }
 }
