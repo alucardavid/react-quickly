@@ -7,11 +7,11 @@ body {
   font-size: 16px;
 }
 
-.app__2Tw6I {
+.app__1usGn {
   height: 100vh;
   width: 100vw;
 }
-.movies__1yh7H {
+.movies__1FPsT {
   height: 100%;
   width: 100%;
   padding: 0;
@@ -19,15 +19,15 @@ body {
   background-color: black;
 }
 
-.list__3moKA {
+.list__3cdWu {
   width: 100%;
 }
 
-.listHidden__WYHLr {
+.listHidden__3Kah8 {
   display: none;
 }
 
-.movie__Gn3Dz {
+.movie__2UBxo {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -41,7 +41,7 @@ body {
 }
 
 @media (min-width: 667px) {
-  .movies__1yh7H {
+  .movies__1FPsT {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -49,7 +49,7 @@ body {
     align-items: stretch;
   }
 
-  .list__3moKA, .listHidden__WYHLr {
+  .list__3cdWu, .listHidden__3Kah8 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -59,11 +59,11 @@ body {
     overflow-x: auto;
   }
 
-  .movie__Gn3Dz {
+  .movie__2UBxo {
     margin: 10px;
   }
 }
-.movie__3noIW {
+.movie__1L3FO {
   padding: 10px;
   color: white;
   background-size: cover;
@@ -71,7 +71,7 @@ body {
   background-position: center center;
 }
 
-.cover__EZ5Vw {
+.cover__kmjbH {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -88,36 +88,36 @@ body {
   background-repeat: no-repeat;
 }
 
-.description__3mmHU {
+.description__kAZ6w {
   width: 100%;
   margin: 10px;
 }
 
-.title__1VLZs {
+.title__7GXEM {
   font-size: 40px;
   font-weight: 600;
   line-height: 1.15;
   color: rgba(255, 255, 255, 0.825);
 }
 
-.year__2_XHk {
+.year__VV5uq {
   font-size: 16px;
   font-style: italic;
   line-height: 1.565;
   color: rgba(255, 255, 255, 0.325);
 }
 
-.starring__2OCep {
+.starring__3t-ga {
   margin: 20px 0 0;
 }
 
-.actor__3UDtd {
+.actor__17dre {
   margin: 10px 0 0;
   font-size: 16px;
   line-height: 1;
 }
 
-.closeButton__3jsOq {
+.closeButton__uOpir {
   display: block;
   padding: 10px 25px 10px 35px;
   font-size: 20px;
@@ -128,7 +128,7 @@ body {
 }
 
 @media (min-width: 667px) {
-  .movie__3noIW {
+  .movie__1L3FO {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
